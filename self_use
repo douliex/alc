@@ -13,7 +13,7 @@ ruleset=设置,https://raw.githubusercontent.com/douliex/alc/main/self_add
 ;ruleset=直连,[]GEOIP,LAN
 ruleset=直连,[]GEOIP,CN
 ruleset=其他,[]FINAL
-
+;
 custom_proxy_group=设置`select`[]自动`[]DIRECT`.*
 custom_proxy_group=自动`url-test`.*`http://www.gstatic.com/generate_204`300,,50
 custom_proxy_group=直连`select`[]DIRECT`[]设置`[]自动
