@@ -8,19 +8,26 @@
 ;去广告：不支持
 
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list
+;本地/局域网地址,路由器管理域名
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/GoogleCN.list
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/SteamCN.list
 ruleset=设置,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+;Telegram
 ruleset=设置,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+;国外媒体
 ruleset=设置,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
+;外国网站
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
+;china
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+;中国云服务商ip端
 ruleset=设置,https://raw.githubusercontent.com/douliex/alc/main/self_add.list
+;俺自己加的
 ;ruleset=直连,[]GEOIP,LAN
 ruleset=直连,[]GEOIP,CN
 ruleset=其他,[]FINAL
-;
+
 custom_proxy_group=设置`select`[]故障转移`[]自动`[]DIRECT`.*
 custom_proxy_group=直连`select`[]DIRECT`[]设置`[]自动
 custom_proxy_group=其他`select`[]直连`[]DIRECT`[]设置`[]自动
