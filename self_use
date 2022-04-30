@@ -9,6 +9,7 @@ ruleset=设置,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Pr
 ruleset=设置,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyLite.list
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaDomain.list
 ruleset=直连,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
+ruleset=设置,https://raw.githubusercontent.com/douliex/alc/main/self_add
 ;ruleset=直连,[]GEOIP,LAN
 ruleset=直连,[]GEOIP,CN
 ruleset=其他,[]FINAL
